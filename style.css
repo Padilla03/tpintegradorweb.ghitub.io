@@ -1,0 +1,98 @@
+body{
+    font-family: "Arial", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(/imagenesSl/trapiche/trapiche2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    
+    
+} 
+header{
+    background:linear-gradient(#648182ee,rgba(157, 205, 157, 0.214));
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+main{
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+.article-section{
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.article-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+/*Formulario*/
+form{
+    padding: 20px; /*Crear un padding interno*/
+    margin: 100px auto; /*Centrar formulario y ajustar el margen*/
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; /*Limitar ancho del formulario*/
+    background-color: rgba(255, 255, 255, 0.8); /*Fondo semi-transparente para destacar el formulario*/
+    border-radius: 10px;/*Bordes redondeados*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*Profundidad con Sombra*/ 
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold; /* resalta etiquetas*/
+    color: #333; /* color del texto */
+}
+
+input, textarea, button{
+    margin:  5px 0 15px 0; /*separacion*/
+    border-radius: 5px;/*bordes redondeados*/
+    padding: 10px;/*padding interno*/
+    font-size: 16px;/*tamaño de fuente*/
+}
+input:focus, textarea:focus{
+    border-color: #007bFF; /*Color del borde al enfocarse*/
+    outline: none; /*Quitar el outline por defecto*/
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /*Sombra al desenfocarse*/
+}
+button{
+    background-color: #007bff; /*Color del boton*/
+    color: white; /*Color del texto del boton*/
+    border: none; /*Quitar bordes del boton*/
+    cursor: pointer; /*cambiarl el cursor al pasar sobre el boton*/
+    transition: background-color 0.3s ease; /*transicion suave para el cambio de color*/   
+}
+button:hover{
+    background-color: #0056b3; /*Color del boton al pasar el raton*/
+}
+.final{
+    font-family: sans-serif;
+    color: white;
+    background:linear-gradient(#648182ee,rgba(157, 205, 157, 0.214));
+    padding: 10px 0;
+}
+
+
+
+
