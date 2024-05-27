@@ -92,6 +92,50 @@ button:hover{
     background:linear-gradient(#648182ee,rgba(157, 205, 157, 0.214));
     padding: 10px 0;
 }
+/*carrousel*/
+.carrousel {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carrousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrousel-images img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carrousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.carrousel-button.prev {
+    left: 10px;
+}
+
+.carrousel-button.next {
+    right: 10px;
+}
+
+.carrousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 
 
 
